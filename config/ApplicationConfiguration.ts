@@ -72,7 +72,7 @@ export const APPLICATION_CONFIGURATION: IApplicationConfiguration = {
   dev: {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    host: 'localhost',
+    host: '0.0.0.0',
     port: 8080,
     errorOverlay: true,
     notifyOnErrors: true,

@@ -20,7 +20,11 @@
     "no-console": false,
     "await-promise": [true, "PromiseLike"],
     "completed-docs": false,
-    "strict-boolean-expressions": false
+    "strict-boolean-expressions": false,
+    "linebreak-style": false,
+    "ordered-imports": false,
+    "no-unsafe-any": false,
+    "newline-before-return": false
   },
   "linterOptions": {
     "exclude": [

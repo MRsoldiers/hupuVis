@@ -88,12 +88,12 @@ import { Component, Vue } from 'vue-property-decorator'
 import { Action, Getter, namespace } from 'vuex-class'
 import { BindingHelpers } from 'vuex-class/lib/bindings'
 
-const exampleStore: BindingHelpers = namespace('Example')
+const hupuStore: BindingHelpers = namespace('Hupu')
 
 @Component
 export default class HelloWorld extends Vue {
-  @exampleStore.Getter public welcomeMessage!: string
-  @exampleStore.Action private setWelcomeMessage!: (msg: string) => void
+  @hupuStore.Getter public welcomeMessage!: string
+  @hupuStore.Action private setWelcomeMessage!: (msg: string) => void
 
   public mounted (): void {
     this.setWelcomeMessage('Hello from vue-webpack-ts-template!')

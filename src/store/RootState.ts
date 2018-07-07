@@ -1,3 +1,3 @@
-import { IExampleStoreState } from './modules/ExampleStore/State'
+import { IHupuStoreState } from './modules/HupuStore/State'
 
-export type IRootState = IExampleStoreState
+export type IRootState = IHupuStoreState

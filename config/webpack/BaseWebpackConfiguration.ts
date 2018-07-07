@@ -53,9 +53,9 @@ export const baseWebpackConfiguration: Configuration = {
       '@': resolve('src')
     }
   },
-  devServer: {
-    historyApiFallback: true
-  },
+  // devServer: {
+  //   historyApiFallback: true
+  // },
   module: {
     rules: [
       ...generateStyleLoaders({

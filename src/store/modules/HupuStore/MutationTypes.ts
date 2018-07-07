@@ -1,0 +1,5 @@
+export const MUTATIONS: { [name: string]: string } = {
+  SET_MESSAGE: 'SET_MESSAGE',
+  SET_CARDS: 'SET_CARDS',
+  SET_CARDS_LOADING_PROMISE: 'SET_CARDS_LOADING_PROMISE'
+}

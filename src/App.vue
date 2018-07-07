@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -20,6 +19,13 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.hupu-view {
+  margin: auto;
+  width: 100vw;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
 }
 </style>
